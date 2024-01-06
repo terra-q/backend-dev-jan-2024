@@ -8,13 +8,47 @@ Repositório contendo as instruções do processo seletivo para Desenvolvedor Ba
 
 # Descrição e objetivos
 
-Este teste foi criado para avaliar X.
+Este teste foi criado para avaliar suas habilidades no desenvolvimento de uma aplicação backend que integre funcionalidades geoespaciais. O objetivo é criar uma API que interaja com um banco de dados PostgreSQL com a extensão PostGIS, fornecendo endpoints para manipulação e consulta de dados geoespaciais.
 
-Seu objetivo é Y.
+Seus objetivos são:
+
+1. Instalar e Configurar PostGIS no PostgreSQL:
+
+    - Instale a extensão PostGIS no PostgreSQL.
+    - Configure o ambiente PostgreSQL com PostGIS nas migrations do Laravel. Isto deve ser feito para preparar o banco de dados para operações geoespaciais.
+
+
+2. Criar Tabelas de Feições Geoespaciais:
+
+    - Tabela `municipios_geometria`: Para armazenar as geometrias dos municípios de SP e MG. Os municípios devem ser criados a partir dos GeoJSONs fornecidos. Esta tabela deve possuir os campos "id", "nome_municipio" e "geom".
+    - Tabela `estados_geometria`: Para armazenar as geometrias dos estados de São Paulo (SP) e Minas Gerais (MG). Esta tabela deve ser criada processando os dados dos municípios de cada estado e realizando um join/dissolve para formar a geometria do estado. Esta tabela deve possuir os campos "id", "nome_estado" e "geom".
+    - Crie as tabelas estados_geometria e municipios_geometria utilizando os geojson dos [municípios de São Paulo](https://raw.githubusercontent.com/tbrugz/geodata-br/master/geojson/geojs-35-mun.json) e o geojson dos [municípios de Minas Gerais](https://raw.githubusercontent.com/tbrugz/geodata-br/master/geojson/geojs-31-mun.json) como insumos.
+    - Tabela `pontos_usuario`: Para armazenar os pontos postados pelos usuários, com campos para "id", "latitude", "longitude", "municipio_id" e "geom".
+    - PS: As colunas de geometrias das tabelas criadas devem ser do tipo Geometry e devem ter o nome "geom" e devem estar no SRID 4326.
+
+
+3. Desenvolver Endpoints Específicos:
+
+    - Consulta por Latitude e Longitude (`/api/localizar-municipio`): Endpoint para receber latitude e longitude e retornar o município correspondente ou erro se não encontrado.
+    - CRUD de Pontos (`/api/pontos`): Implemente um CRUD completo para manipular a tabela pontos_usuario, com os métodos POST, GET, PUT, DELETE.
 
 # Avaliação
 ## Lista de tarefas a serem cumpridas
-- [ ] Faça usando este [LINK](https://raw.githubusercontent.com/tbrugz/geodata-br/master/geojson/geojs-31-mun.json)
+[ ] Instalar e Configurar PostGIS no PostgreSQL via migrations do Laravel
+
+[ ] Criar Tabela `estados_geometria`
+
+[ ] Criar Tabela `municipios_geometria`
+
+[ ] Criar Tabela `pontos_usuario`
+
+[ ] Consulta por Latitude e Longitude (`/api/localizar-municipio`)
+
+[ ] CRUD de Pontos (`/api/pontos`)
+
+[ ] Criar um README.md com instruções adicionais de instalação e configuração do projeto
+
+[ ] Enviar o link do repositório para o e-mail
 
 
 ## Critérios avaliados
@@ -36,7 +70,7 @@ Seu objetivo é Y.
 # Submissão
 * Faça uma cópia do repositório, torne-o privado e adicione o usuário **@abreufilho** como colaborador usando o link abaixo:
   * >https://github.com/SEU_USUARIO/backend-dev-jan-2024/settings/access
-* Faça as alterações de modo a cumprir as tarefas deste teste, dê os commits necessários e o push final para o seu repositório remoto no GitHub, lembrando de fazê-lo antes do prazo final (09/01/2024 11:30h - Horário de Brasília).
+* Faça as alterações de modo a cumprir as tarefas deste teste, dê os commits necessários e o push final para o seu repositório remoto no GitHub, lembrando de fazê-lo antes do prazo final (09/01/2024 17:59h - Horário de Brasília).
 * Lembre-se de utilizar sua conta real do GitHub;
 * O tempo de entrega *NÃO* está sendo avaliado, mas envios após a data e hora limite serão desconsiderados.
 * Nenhum código desenvolvido neste teste será utilizado em produção/comercialmente pela TerraQ.
@@ -51,7 +85,7 @@ Seu objetivo é Y.
    
 # Prazo
 
-## Serão considerados pushes realizados até <span style="color:red">**11:30h de 09/01/2024**</span> (segunda-feira)
+## Serão considerados pushes realizados até <span style="color:red">**17:59h de 09/01/2024**</span> (segunda-feira)
 
 Todos os candidatos receberão o aviso e acesso à este teste simultaneamente, portanto, todos terão exatamente o mesmo tempo e oportunidade.
 
