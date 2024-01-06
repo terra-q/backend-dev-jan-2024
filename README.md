@@ -58,6 +58,7 @@ Seus objetivos são:
 * Facilidade de manutenção e extensão das novas funções implementadas;
 * Processamento de Dados: Eficácia no manuseio e análise de dados geoespaciais.
 * Visualização: Clareza, interatividade e estética da visualização de dados.
+* Laravel: Utilização de recursos do framework Laravel para facilitar o desenvolvimento como migrations, models, controllers, rotas, etc.
 
 # Dicas
 * Use o estilo de código mais confortável à você;
