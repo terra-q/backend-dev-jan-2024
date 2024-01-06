@@ -34,21 +34,21 @@ Seus objetivos são:
 
 # Avaliação
 ## Lista de tarefas a serem cumpridas
-[] Instalar e Configurar PostGIS no PostgreSQL via migrations do Laravel
+- [ ] Instalar e Configurar PostGIS no PostgreSQL via migrations do Laravel
 
-[] Criar Tabela `estados_geometria`
+- [ ] Criar Tabela `estados_geometria`
 
-[] Criar Tabela `municipios_geometria`
+- [ ] Criar Tabela `municipios_geometria`
 
-[] Criar Tabela `pontos_usuario`
+- [ ] Criar Tabela `pontos_usuario`
 
-[] Consulta por Latitude e Longitude (`/api/localizar-municipio`)
+- [ ] Consulta por Latitude e Longitude (`/api/localizar-municipio`)
 
-[] CRUD de Pontos (`/api/pontos`)
+- [ ] CRUD de Pontos (`/api/pontos`)
 
-[] Criar um README.md com instruções adicionais de instalação e configuração do projeto
+- [ ] Criar um README.md com instruções adicionais de instalação e configuração do projeto
 
-[] Enviar o link do repositório para o e-mail
+- [ ] Enviar o link do repositório para o e-mail
 
 
 ## Critérios avaliados
