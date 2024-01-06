@@ -79,7 +79,7 @@ Seus objetivos são:
 
   >Para: **antonio.abreu@terraq.com.br**
 
-  >Título: **Teste Ciência de Dados - [Seu Nome]**
+  >Título: **Teste Backend - [Seu Nome]**
 
   >Corpo do e-mail: **https://github.com/{SEU_USUARIO}/backend-dev-jan-2024**
    
