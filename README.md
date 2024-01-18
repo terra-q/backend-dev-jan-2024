@@ -75,6 +75,7 @@ Seus objetivos são:
 * Lembre-se de utilizar sua conta real do GitHub;
 * O tempo de entrega *NÃO* está sendo avaliado, mas envios após a data e hora limite serão desconsiderados.
 * Nenhum código desenvolvido neste teste será utilizado em produção/comercialmente pela TerraQ.
+* Não adicione requerimentos de configuração de ambiente ou instalações via Docker, parte do teste é que ele funcione na versão 9 do Laravel e com PHP <= 8.1.
 * Ao concluir seu último push, envie um e-mail para antonio.abreu@terraq.com.br com cópia (CC) para talita.mendonca@terraq.com.br contendo somente o link para seu repositório no corpo do texto e o título do e-mail com as seguintes especificações ex.:
   >De: **seu_nome@email.com**
 
@@ -94,8 +95,9 @@ Todos os candidatos receberão o aviso e acesso à este teste simultaneamente, p
 
 Para começar, faça um repositório a partir da cópia do original acessando o link (lembre-se de logar com seu usuário GitHub).
 
-Lembre-se de não deixar o repositório público caso não queira que outros candidatos tenham acesso ao seu código.
 > https://github.com/terra-q/backend-dev-jan-2024/generate
+
+Lembre-se de não deixar o repositório público caso não queira que outros candidatos tenham acesso ao seu código.
 
 Após a cópia, clone o repositório localmente:
 
