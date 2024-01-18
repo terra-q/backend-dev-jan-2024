@@ -71,7 +71,7 @@ Seus objetivos são:
 # Submissão
 * Faça uma cópia do repositório, torne-o privado e adicione o usuário **@abreufilho** como colaborador usando o link abaixo:
   * >https://github.com/SEU_USUARIO/backend-dev-jan-2024/settings/access
-* Faça as alterações de modo a cumprir as tarefas deste teste, dê os commits necessários e o push final para o seu repositório remoto no GitHub, lembrando de fazê-lo antes do prazo final (09/01/2024 17:59h - Horário de Brasília).
+* Faça as alterações de modo a cumprir as tarefas deste teste, dê os commits necessários e o push final para o seu repositório remoto no GitHub, lembrando de fazê-lo antes do prazo final (22/01/2024 11:59h - Horário de Brasília).
 * Lembre-se de utilizar sua conta real do GitHub;
 * O tempo de entrega *NÃO* está sendo avaliado, mas envios após a data e hora limite serão desconsiderados.
 * Nenhum código desenvolvido neste teste será utilizado em produção/comercialmente pela TerraQ.
@@ -86,13 +86,15 @@ Seus objetivos são:
    
 # Prazo
 
-## Serão considerados pushes realizados até <span style="color:red">**17:59h de 09/01/2024**</span> (segunda-feira)
+## Serão considerados pushes realizados até <span style="color:red">**11:59h de 22/01/2024**</span> (segunda-feira)
 
 Todos os candidatos receberão o aviso e acesso à este teste simultaneamente, portanto, todos terão exatamente o mesmo tempo e oportunidade.
 
 # Instruções de instalação/configuração
 
-Para começar, faça um repositório a partir da cópia do original acessando o link (lembre-se de logar com seu usuário GitHub)
+Para começar, faça um repositório a partir da cópia do original acessando o link (lembre-se de logar com seu usuário GitHub).
+
+Lembre-se de não deixar o repositório público caso não queira que outros candidatos tenham acesso ao seu código.
 > https://github.com/terra-q/backend-dev-jan-2024/generate
 
 Após a cópia, clone o repositório localmente:
